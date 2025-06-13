@@ -1,0 +1,64 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- QR Code Pattern -->
+  <rect width="300" height="300" fill="white"/>
+  
+  <!-- Corner Detection Patterns -->
+  <rect x="20" y="20" width="70" height="70" fill="black"/>
+  <rect x="30" y="30" width="50" height="50" fill="white"/>
+  <rect x="40" y="40" width="30" height="30" fill="black"/>
+  
+  <rect x="210" y="20" width="70" height="70" fill="black"/>
+  <rect x="220" y="30" width="50" height="50" fill="white"/>
+  <rect x="230" y="40" width="30" height="30" fill="black"/>
+  
+  <rect x="20" y="210" width="70" height="70" fill="black"/>
+  <rect x="30" y="220" width="50" height="50" fill="white"/>
+  <rect x="40" y="230" width="30" height="30" fill="black"/>
+  
+  <!-- Center UPI Logo -->
+  <circle cx="150" cy="150" r="25" fill="black"/>
+  <text x="150" y="155" text-anchor="middle" fill="white" font-family="Arial" font-size="18" font-weight="bold">UPI</text>
+  
+  <!-- Sample QR Pattern Data -->
+  <rect x="100" y="100" width="10" height="10" fill="black"/>
+  <rect x="120" y="100" width="10" height="10" fill="black"/>
+  <rect x="100" y="120" width="10" height="10" fill="black"/>
+  <rect x="180" y="100" width="10" height="10" fill="black"/>
+  <rect x="200" y="100" width="10" height="10" fill="black"/>
+  <rect x="180" y="120" width="10" height="10" fill="black"/>
+  <rect x="100" y="180" width="10" height="10" fill="black"/>
+  <rect x="120" y="180" width="10" height="10" fill="black"/>
+  <rect x="100" y="200" width="10" height="10" fill="black"/>
+  <rect x="180" y="180" width="10" height="10" fill="black"/>
+  <rect x="200" y="180" width="10" height="10" fill="black"/>
+  <rect x="180" y="200" width="10" height="10" fill="black"/>
+  
+  <!-- Additional Pattern Elements -->
+  <rect x="110" y="110" width="10" height="10" fill="black"/>
+  <rect x="130" y="110" width="10" height="10" fill="black"/>
+  <rect x="110" y="130" width="10" height="10" fill="black"/>
+  <rect x="170" y="110" width="10" height="10" fill="black"/>
+  <rect x="190" y="110" width="10" height="10" fill="black"/>
+  <rect x="170" y="130" width="10" height="10" fill="black"/>
+  <rect x="110" y="170" width="10" height="10" fill="black"/>
+  <rect x="130" y="170" width="10" height="10" fill="black"/>
+  <rect x="110" y="190" width="10" height="10" fill="black"/>
+  <rect x="170" y="170" width="10" height="10" fill="black"/>
+  <rect x="190" y="170" width="10" height="10" fill="black"/>
+  <rect x="170" y="190" width="10" height="10" fill="black"/>
+  
+  <!-- More scattered pattern -->
+  <rect x="140" y="100" width="10" height="10" fill="black"/>
+  <rect x="160" y="100" width="10" height="10" fill="black"/>
+  <rect x="140" y="120" width="10" height="10" fill="black"/>
+  <rect x="140" y="140" width="10" height="10" fill="black"/>
+  <rect x="160" y="140" width="10" height="10" fill="black"/>
+  <rect x="140" y="160" width="10" height="10" fill="black"/>
+  <rect x="160" y="160" width="10" height="10" fill="black"/>
+  <rect x="140" y="180" width="10" height="10" fill="black"/>
+  <rect x="160" y="180" width="10" height="10" fill="black"/>
+  <rect x="140" y="200" width="10" height="10" fill="black"/>
+  
+  <!-- Payment Instructions Text -->
+  <text x="150" y="290" text-anchor="middle" fill="black" font-family="Arial" font-size="12" font-weight="bold">Scan to Pay - @Abdul20298</text>
+</svg>
