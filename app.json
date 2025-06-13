@@ -1,0 +1,24 @@
+{
+  "name": "Telegram Digital Store Bot",
+  "description": "A Telegram bot for selling digital products with admin panel",
+  "repository": "https://github.com/yourusername/telegram-store-bot",
+  "logo": "https://telegram.org/img/t_logo.png",
+  "keywords": ["telegram", "bot", "digital-store", "python"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token from @BotFather",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
