@@ -101,11 +101,10 @@ class DigitalProductBot:
         if query:
             await query.answer("⚠️ This action is not available.")
 
-    async def error_handler(self, update: Update, context):
+    async def error_handler(self, update: object, context):
         """Handle errors"""
         logger.error(f"Update {update} caused error {context.error}")
-
-        if update and update.effective_chat:
+        if isinstance(update, Update) and update.effective_chat:
             try:
                 await context.bot.send_message(
                     chat_id=update.effective_chat.id,
@@ -118,10 +117,8 @@ class DigitalProductBot:
         """Start the bot"""
         logger.info("Starting Digital Product Sales Bot...")
 
-        # Initialize database
         self.db.init_database()
 
-        # Create application with optimized settings
         self.application = (
             Application.builder()
             .token(BOT_TOKEN)
@@ -130,10 +127,9 @@ class DigitalProductBot:
             .build()
         )
 
-        # Setup handlers
         self.setup_handlers()
 
-        # Start polling
+        # ✅ Correct way to start polling in PTB v20+
         await self.application.run_polling(
             poll_interval=1.0,
             timeout=10,
@@ -155,7 +151,6 @@ def main():
     bot = DigitalProductBot()
 
     try:
-        # Run the bot
         asyncio.run(bot.start_bot())
     except KeyboardInterrupt:
         logger.info("Received interrupt signal, stopping bot...")
